@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="SportNest – Sportphysiotherapie für Kinder und Erwachsene. Individuelle Therapie und sportliche Begleitung.">
+    <title>SportNest – Sportphysiotherapie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:ital,wght@1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============ NAVIGATION ============ -->
+    <nav id="main-nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="SportNest Logo" class="logo-image">
+                <span class="logo-text brand-font">SportNest</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero-parallax">Start</a></li>
+                <li><a href="#angebot">Angebot</a></li>
+                <li><a href="#vision">Team</a></li>
+                <li><a href="#cta">Praxis</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <button class="nav-hamburger" id="nav-hamburger" aria-label="Menü öffnen">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============ HERO / PARALLAX-BEREICH ============ -->
+    <section id="hero-parallax">
+        <div class="parallax-sticky">
+
+            <!-- Hintergrund-Gradient -->
+            <div class="parallax-bg"></div>
+
+            <!-- Personen-Layer -->
+            <div class="person-container">
+                <img id="img-junge" class="person-img" src="images/junge.png" alt="Junge">
+                <img id="img-mann" class="person-img" src="images/mann.png" alt="Mann">
+                <img id="img-oma" class="person-img" src="images/oma.png" alt="Oma">
+                <img id="img-frau" class="person-img" src="images/frau.png" alt="Frau">
+            </div>
+
+            <!-- Text-Overlay pro Phase -->
+            <div class="hero-text active" id="text-phase-0">
+                <h1>SportNest<br>Familienfreundliche Physiotherapie</h1>
+                <p class="hero-subtitle"><strong>Zurück in Bewegung. Schmerzfrei. Leistungsfähig.</strong></p>
+                <p class="hero-desc">Individuelle Therapie und sportliche Begleitung<br>bei orthopädischen
+                    Beschwerden,<br>Verletzungen und Leistungszielen.</p>
+                <a href="#kontakt" class="cta-button">Termin buchen</a>
+            </div>
+            <div class="hero-text" id="text-phase-1">
+                <h1>Für die ganze Familie</h1>
+                <p class="hero-subtitle"><strong>Kompetenz trifft Erfahrung.</strong></p>
+                <p class="hero-desc">Sportphysiotherapie für Erwachsene –<br>ob Prävention, Reha oder
+                    Leistungssteigerung.</p>
+                <a href="#kontakt" class="cta-button">Mehr erfahren</a>
+            </div>
+            <div class="hero-text" id="text-phase-2">
+                <h1>FiT<br>in jedem Alter</h1>
+                <p class="hero-subtitle"><strong>Familiäres, individuelles Training</strong></p>
+                <p class="hero-desc">Individuelle Betreuung für jedes Leistungsniveau –<br>Bewegung verbessern,
+                    Stabilität aufbauen, Leistungsfähigkeit steigern.</p>
+                <a href="#kontakt" class="cta-button">Starte FiT</a>
+            </div>
+
+            <!-- Permanent tags bar at the bottom of the parallax -->
+            <div class="hero-tags" id="hero-tags">
+                <span class="hero-tag"><span class="tag-icon">✓</span> Für Kinder</span>
+                <span class="hero-tag"><span class="tag-icon">✓</span> Für Erwachsene</span>
+                <span class="hero-tag"><span class="tag-icon">🏃</span> Sportliche Balance</span>
+                <span class="hero-tag"><span class="tag-icon">🩺</span> Individuell betreut</span>
+            </div>
+
+            <!-- Scroll-Hinweis -->
+            <div class="scroll-indicator" id="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FORMT SCROLL SECTION ============ -->
+    <section id="vision">
+        <div class="formt-sticky">
+            <!-- Background silhouettes layer -->
+            <div class="formt-silhouettes" id="formt-silhouettes">
+                <img class="silhouette sil-1" src="images/silhouette-stretch.png" alt="" aria-hidden="true">
+                <img class="silhouette sil-2" src="images/silhouette-runner.png" alt="" aria-hidden="true">
+                <img class="silhouette sil-3" src="images/silhouette-kid.png" alt="" aria-hidden="true">
+            </div>
+
+            <div class="formt-content">
+                <!-- Tagline: fades in early, out as FORMT expands -->
+                <p class="formt-tagline" id="formt-tagline">Gesundheit ist kein Zufall. Sie ist formbar.</p>
+
+                <img src="images/formt-logo.png" alt="SportNest Logo" class="formt-logo">
+                <h2 class="formt-brand brand-font">SportNest</h2>
+
+                <div class="formt-word-row" id="formt-row">
+                    <div class="formt-word"
+                        data-desc="Steigerung der allgemeinen körperlichen Leistungsfähigkeit und Vitalität für einen aktiven Alltag.">
+                        <span class="formt-inline"><span class="formt-letter">F</span><span class="formt-rest"><span
+                                    class="formt-rest-inner">itness</span></span></span>
+                        <div class="formt-arrow">▾</div>
+                    </div>
+                    <div class="formt-word"
+                        data-desc="Strukturierte Planung von Therapie und Training, die sich nahtlos in Ihren Alltag und Zeitplan integriert.">
+                        <span class="formt-inline"><span class="formt-letter">O</span><span class="formt-rest"><span
+                                    class="formt-rest-inner">rganisation</span></span></span>
+                        <div class="formt-arrow">▾</div>
+                    </div>
+                    <div class="formt-word"
+                        data-desc="Zielgerichtete physiotherapeutische Wiederherstellung nach Verletzungen, Operationen oder bei chronischen Beschwerden.">
+                        <span class="formt-inline"><span class="formt-letter">R</span><span class="formt-rest"><span
+                                    class="formt-rest-inner">ehabilitation</span></span></span>
+                        <div class="formt-arrow">▾</div>
+                    </div>
+                    <div class="formt-word"
+                        data-desc="Persönliche Begleitung und Ermutigung, damit Sie Ihr volles Potenzial entfalten und langfristig am Ball bleiben.">
+                        <span class="formt-inline"><span class="formt-letter">M</span><span class="formt-rest"><span
+                                    class="formt-rest-inner">otivation</span></span></span>
+                        <div class="formt-arrow">▾</div>
+                    </div>
+                    <div class="formt-word"
+                        data-desc="Nachhaltige, sportwissenschaftlich fundierte Begleitung, um Ihre persönlichen Gesundheits- und Sportziele zu erreichen.">
+                        <span class="formt-inline"><span class="formt-letter">T</span><span class="formt-rest"><span
+                                    class="formt-rest-inner">raining</span></span></span>
+                        <div class="formt-arrow">▾</div>
+                    </div>
+                </div>
+
+                <!-- Shared description field below all words -->
+                <div class="formt-desc-field" id="formt-description">
+                    <p id="formt-desc-text">Klicken Sie auf ein Wort, um mehr zu erfahren.</p>
+                </div>
+
+                <!-- Mission text: fades in after FORMT is fully revealed -->
+                <div class="formt-mission" id="formt-mission">
+                    <p>Wir glauben an Bewegung mit Struktur.<br>An Therapie mit System.<br>An Training mit Sinn.</p>
+                    <p>Wir begleiten Menschen jeden Alters.<br>Individuell. Zielgerichtet. Nachhaltig.</p>
+                    <p class="formt-mission-closing">Was uns leitet, formt Ihren Weg.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ANGEBOT ============ -->
+    <section id="angebot">
+        <div class="section-inner">
+            <h2 class="section-title">Angebot</h2>
+            <div class="angebot-grid">
+                <div class="angebot-card">
+                    <h3>Kinder und Jugendliche</h3>
+                    <ul>
+                        <li>Haltung und Bewegung</li>
+                        <li>Sportbegleitung</li>
+                        <li>Prävention</li>
+                    </ul>
+                </div>
+                <div class="angebot-card">
+                    <h3>Erwachsene</h3>
+                    <ul>
+                        <li>Orthopädie Sport Physio</li>
+                        <li>Trainingstherapie</li>
+                        <li>Return to Sport</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#kontakt" class="cta-button" style="margin-top:2rem;">Mehr erfahren</a>
+        </div>
+    </section>
+
+    <!-- ============ ZIELE ============ -->
+    <section id="ziele">
+        <div class="section-inner">
+            <h2 class="section-title">Ziel</h2>
+            <div class="ziele-grid">
+                <div class="ziel-card">
+                    <div class="ziel-header">
+                        <span class="ziel-number">1</span>
+                        <span class="ziel-icon">⚡</span>
+                    </div>
+                    <p>Akute und chronische Schmerzen effektiv lindern.</p>
+                </div>
+                <div class="ziel-card">
+                    <div class="ziel-header">
+                        <span class="ziel-number">2</span>
+                        <span class="ziel-icon">🏃</span>
+                    </div>
+                    <p>Bewegungsabläufe und Koordination optimieren.</p>
+                </div>
+                <div class="ziel-card">
+                    <div class="ziel-header">
+                        <span class="ziel-number">3</span>
+                        <span class="ziel-icon">🏅</span>
+                    </div>
+                    <p>Persönliche Bestleistungen und Fitnessziele erreichen.</p>
+                </div>
+                <div class="ziel-card">
+                    <div class="ziel-header">
+                        <span class="ziel-number">4</span>
+                        <span class="ziel-icon">🌿</span>
+                    </div>
+                    <p>Langfristig gesund und aktiv bleiben.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PRAXIS ============ -->
+    <section id="praxis">
+        <div class="section-inner">
+            <h2 class="section-title">Unsere Praxis</h2>
+            <p class="section-subtitle">Modern, einladend und bestens ausgestattet – für Ihre optimale Behandlung.</p>
+            <div class="praxis-render-wrap" id="praxis-render-wrap">
+                <img src="images/praxis-render.png" alt="3D Ansicht der SportNest Praxis" class="praxis-render"
+                    id="praxis-render">
+            </div>
+            <div class="praxis-map">
+                <iframe src="https://www.google.com/maps?q=Königstraße+32,+30175+Hannover&output=embed" width="100%"
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section id="cta">
+        <div class="section-inner">
+            <h2 class="cta-title">Starten Sie jetzt</h2>
+            <p class="cta-subtitle">Ersttermin. Befund. Klarer Plan.</p>
+            <a href="#kontakt" class="cta-button cta-button-large">Termin vereinbaren</a>
+        </div>
+    </section>
+
+    <!-- ============ KONTAKT ============ -->
+    <section id="kontakt">
+        <div class="section-inner">
+            <h2 class="section-title">Kontakt</h2>
+            <p class="section-subtitle">Wir freuen uns auf Ihre Nachricht.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <p>Königstraße 32, 30175 Hannover</p>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <p>+49 123 456 789</p>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <p>info@sportnest.de</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 SportNest. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
